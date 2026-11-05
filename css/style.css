@@ -1,0 +1,11 @@
+:root {
+  --bs-primary-base: var(--bs-pink-400);
+  --bs-primary-bg:#8d1bbe;
+  --bs-primary-fg:#8d1bbe;
+  --bs-primary-contrast:#FFFFFF;;
+  --bs-primary-fg-emphasis: #660590;
+  --bs-primary-border:#8d1bbe;
+  --bs-primary-bg-subtle:#c95bf9;
+  --bs-primary-bg-muted:#d8a3ef;
+  --bs-primary-focus-ring: rgba(149, 27, 190, 0.4);
+}
