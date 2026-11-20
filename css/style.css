@@ -15,17 +15,20 @@ body {
   background-color: var(--fond);
 }
 
-.projet {
-  border: #c1c1c1 solid 2px;
-  border-radius: 10px;
-  margin: 20px;
-  padding: 20px;
-  width: 300px;
-}
+
 
 li {
+  list-style-type: none;
   display: inline-block;
-  margin-right: 20px;
+  /* margin-left: 20px; */
+}
+
+article{
+  border: #787878 solid 1px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
 }
 
 .projet h3 {
@@ -52,11 +55,11 @@ button:hover {
 header {
   background-color: var(--bleufonceportfolio);
   color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   padding: 20px;
+
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
 }
 
 nav a {
@@ -64,34 +67,50 @@ nav a {
   text-decoration: none;
 }
 
-.btn-sombre {
-  background-color: #000094;
-  color: #ffffff;
-  padding: 5px 15px;
-  margin-top: 20px;
-}
-
-.burger {
-  display: none;
-  background-color: rgba(rgb(22, 0, 119), 0.5);
-  padding: 5px 10px;
+nav ul {
+  display: flex;
+  gap : 50px;
 }
 
 .projets {
-  border: #000094 solid 1px;
-  padding: 20px;
-  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-@media (max-width: 768px) {
-  .burger {
-    display: block;
-  }
-  nav ul {
-    display: none;
-  }
-  nav ul.ouvert {
-    display: flex;
-    flex-direction: column;
-  }
+article {
+  flex : 1 1 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+article a {
+  margin-top: auto;
+}
+
+
+.presentation {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.presentation img {
+  border-radius: 50%;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+form button {
+  align-self: flex-end;
+}
+
+main.contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }

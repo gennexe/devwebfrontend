@@ -1,0 +1,26 @@
+[
+  {
+    "titre": "Site de l'association",
+    "description": "Un site vitrine de trois pages.",
+    "annee": 2022,
+    "lien": "https://asso.example.com"
+  },
+  {
+    "titre": "Site de l'ecole",
+    "description": "Un site interne de trois pages.",
+    "annee": 2025,
+    "lien": "https://ecole.example.com"
+  },
+  {
+    "titre": "Site vitrine de l'ecole",
+    "description": "Un site interne de trois pages.",
+    "annee": 2025,
+    "lien": "https://ecole.example.com"
+  },
+  {
+    "titre": "Site de l'usine'",
+    "description": "Un site pour l'usine de trois pages.",
+    "annee": 2026,
+    "lien": "https://usine.example.com"
+  }
+]
